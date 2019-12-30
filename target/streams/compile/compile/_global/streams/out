@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\chai8\test_sbt\hw.scala:7:102: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Hi.TreeNode[String] => Seq[String][0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m      val res = List(" "*i + "+-" + (root.data:String) + "\n") ++ root.children((x:TreeNode[String]) => traverse(x,i+1):Seq[String]).reduce(_ ++ _)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
